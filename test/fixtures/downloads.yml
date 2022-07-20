@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  autho_code: MyString
+  : 1
+  date: MyString
+  : 2022-07-17 18:37:44
+  status: MyString
+  : 1
+
+two:
+  email: MyString
+  autho_code: MyString
+  : 1
+  date: MyString
+  : 2022-07-17 18:37:44
+  status: MyString
+  : 1

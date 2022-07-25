@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :downloads
   resources :designs
   resources :users, only: [:show]
+  
   # Login/Logout Session
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"

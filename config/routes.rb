@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :jobs, only: [:index] do
+  resources :jobs do
     resources :images, only: [:show, :index, :create, :destroy]
   end
    

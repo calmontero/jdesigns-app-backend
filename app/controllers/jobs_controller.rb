@@ -19,13 +19,13 @@ class JobsController < ApplicationController
     end
 
     def destroy
-        job = job.destroy(find_job)
+        job = Job.destroy(params[:id])
         head :no_content
     end
 
     private
     def job_params
-        params.permit(:title, :image_link)
+        params.permit(:title, :image_link, :text)
     end
 
     def find_job
